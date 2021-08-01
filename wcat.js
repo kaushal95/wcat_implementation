@@ -115,8 +115,10 @@ function optionFun(option, content) {
         }
     }
     // content = contentArr;
-    // In linux / ubuntu only "\n" works can be changed if ur using in windows / or mac
+    // In linux / ubuntu only "\n" works, can be changed to "\r\n" or "\r" if ur using  windows / or mac
     content = tempArr.join("\n");
     return content;
 
 }
+
+
